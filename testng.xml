@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="com.spicejet.Utils.SpicejetWrappers"/>
+      <class name="com.spicejet.Test.LaunchBrowserTest"/>
+       <class name="com.spicejet.Test.SignInTest"/>
+       <class name="com.spicejet.Test.LoginTest"/>
+       <class name="com.spicejet.Test.FlightSearchTest"/>
+      <class name="com.spicejet.Test.BookingTest"/>
+      <class name="com.spicejet.Test.PaymentTest"/>
+      <class name="com.spicejet.Utils.Reports"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
